@@ -28,10 +28,10 @@
         <nav class="banner-main">
           <ul class="site-nav nav-list">
             <li class="link-main nav-item">
-              <a href="./index.html" class="link">Студия</a>
+              <a href="" class="link current">Студия</a>
             </li>
             <li class="link-main nav-item">
-              <a href="./portfolio.html" class="link current">Портфолио</a>
+              <a href="./portfolio.html" class="link">Портфолио</a>
             </li>
             <li class="link-main nav-item">
               <a href="" class="link">Контакты</a>
@@ -40,14 +40,24 @@
         </nav>
         <ul class="contacts-list">
           <li class="contacts-item">
-            <img src="./img/envelope(hover).svg" alt="The envelope" />
-            <a href="mailto:info@devstudio.com" class="contact">
+            <!-- <img src="./img/envelope(hover).svg" alt="The envelope" /> -->
+            <!-- class="contact" -->
+            <a href="mailto:info@devstudio.com">
+              <svg class="icon-mail">
+                <use href="./img/sprite.svg#envelopehover"></use>
+              </svg>
               info@devstudio.com</a
             >
           </li>
           <li class="contacts-item">
-            <img src="./img/phone.svg" alt="Phone" />
-            <a href="tel:+380961111111" class="contact"> +38 096 111 11 11</a>
+            <!-- <img src="./img/phone.svg" alt="Phone" /> -->
+
+            <a href="tel:+380961111111"
+              ><svg class="icon-phone">
+                <use href="./img/sprite.svg#phone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -224,7 +234,7 @@
       </section>
     </main>
     <!-- Footer -->
-    <footer>
+    <footer class="option-footer">
       <div class="container">
         <div>
           <a href="" class="logo">
@@ -250,21 +260,35 @@
             </ul>
           </address>
         </div>
-        <div class="join-social">
+        <!-- class="join-social" -->
+        <div>
           <!-- section-title white -->
           <p class="join">ПРИСОЕДИНЯЙТЕСЬ</p>
           <ul class="social">
             <li class="social-item">
-              <a href=""><img src="./img/instagram.svg" alt="Instagram" /></a>
+              <a href="">
+                <svg class="icon-social">
+                  <use href="./img/sprite.svg#instagram"></use></svg
+              ></a>
             </li>
             <li class="social-item">
-              <a href=""><img src="./img/Twitter.svg" alt=" Twitter" /> </a>
+              <a href=""
+                ><svg class="icon-social">
+                  <use href="./img/sprite.svg#Twitter"></use>
+                </svg>
+              </a>
             </li>
             <li class="social-item">
-              <a href=""><img src="./img/Facebook.svg" alt="Facebook" /></a>
+              <a href=""
+                ><svg class="icon-social">
+                  <use href="./img/sprite.svg#Facebook"></use></svg
+              ></a>
             </li>
             <li class="social-item">
-              <a href=""><img src="./img/linkedin.svg" alt=" LinkedIN" /></a>
+              <a href=""
+                ><svg class="icon-social">
+                  <use href="./img/sprite.svg#linkedin"></use></svg
+              ></a>
             </li>
           </ul>
         </div>

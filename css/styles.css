@@ -859,7 +859,9 @@ img {
     padding-bottom: 94px;
     padding-left: 15px;
 }
-
+.clients-icon {
+    fill: #afb1b8;
+}
 /* .section-do .container {
   padding-top: 0px;
 }

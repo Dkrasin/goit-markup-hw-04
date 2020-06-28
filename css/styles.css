@@ -848,13 +848,13 @@ img {
   text-align: center;
 }
 
-.container {
+.container-line {
     width: 1200px;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 94px;
+    padding-top: 0px;
     padding-right: 15px;
     padding-bottom: 94px;
     padding-left: 15px;

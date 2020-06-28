@@ -40,14 +40,24 @@
         </nav>
         <ul class="contacts-list">
           <li class="contacts-item">
-            <img src="./img/envelope(hover).svg" alt="The envelope" />
-            <a href="mailto:info@devstudio.com" class="contact">
+            <!-- <img src="./img/envelope(hover).svg" alt="The envelope" /> -->
+            <!-- class="contact" -->
+            <a href="mailto:info@devstudio.com">
+              <svg class="icon-mail">
+                <use href="./img/sprite.svg#envelopehover"></use>
+              </svg>
               info@devstudio.com</a
             >
           </li>
           <li class="contacts-item">
-            <img src="./img/phone.svg" alt="Phone" />
-            <a href="tel:+380961111111" class="contact"> +38 096 111 11 11</a>
+            <!-- <img src="./img/phone.svg" alt="Phone" /> -->
+
+            <a href="tel:+380961111111"
+              ><svg class="icon-phone">
+                <use href="./img/sprite.svg#phone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -70,7 +80,10 @@
           <ul class="advantages-list">
             <li class="advantages-item">
               <div class="advantages-img">
-                <img src="./img/Antenna.svg" alt="Antenna" />
+                <svg class="icon">
+                  <use href="./img/sprite.svg#Antenna"></use>
+                </svg>
+                <!-- <img src="./img/Antenna.svg" alt="Antenna" /> -->
               </div>
               <h2 class="section-title">ВНИМАНИЕ К ДЕТАЛЯМ</h2>
               <p class="text-p">
@@ -81,7 +94,9 @@
             </li>
             <li class="advantages-item">
               <div class="advantages-img">
-                <img src="./img/Clock.svg" alt="Clock" />
+                <svg class="icon">
+                  <use href="./img/sprite.svg#Clock"></use>
+                </svg>
               </div>
               <h2 class="section-title">ПУНКТУАЛЬНОСТЬ</h2>
               <p class="text-p">
@@ -92,7 +107,9 @@
             </li>
             <li class="advantages-item">
               <div class="advantages-img">
-                <img src="./img/Schedule.svg" alt="Schedule" />
+                <svg class="icon">
+                  <use href="./img/sprite.svg#Schedule"></use>
+                </svg>
               </div>
               <h2 class="section-title">ПЛАНИРОВАНИЕ</h2>
               <p class="text-p">
@@ -102,7 +119,9 @@
             </li>
             <li class="advantages-item">
               <div class="advantages-img">
-                <img src="./img/Modernity.svg" alt="Modernity" />
+                <svg class="icon">
+                  <use href="./img/sprite.svg#Modernity"></use>
+                </svg>
               </div>
               <h2 class="section-title">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h2>
               <p class="text-p">
@@ -116,7 +135,7 @@
       </section>
       <!-- Line class -->
 
-      <section class="section-do">
+      <!-- <section class="section-do">
         <div class="container">
           <h3 class="advantages">
             Чем мы занимаемся
@@ -148,11 +167,43 @@
             </li>
           </ul>
         </div>
+      </section> -->
+      <section class="section-do">
+        <div class="container">
+          <h2 class="advantages">Чем мы занимаемся</h2>
+          <ul class="do-list">
+            <li class="do-item">
+              <a class="do-link" href="#">
+                <div>
+                  <img src="./img/laptop.jpg" alt="Изображение ноутбука" />
+                </div>
+                <h2 class="section-title">Десктопные приложения</h2>
+              </a>
+            </li>
+            <li class="do-item">
+              <a class="do-link" href="#">
+                <div>
+                  <img src="./img/box.jpg" alt="Изображение телефона" />
+                </div>
+                <h2 class="section-title">Мобильные приложения</h2>
+              </a>
+            </li>
+            <li class="do-item">
+              <a class="do-link" href="#">
+                <div>
+                  <img src="./img/monitor.jpg" alt="Изображение монитора" />
+                </div>
+                <h2 class="section-title">Дизайнерские решения</h2>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
+
       <!-- Наша команда  -->
       <section class="comand">
         <div class="container">
-          <h3 class="section-title heading">Наша команда</h3>
+          <h3 class="advantages">Наша команда</h3>
           <ul class="comand-list">
             <li class="comand-item">
               <div class="comand-img">
@@ -163,28 +214,34 @@
                 <p class="text-par">Product Designer</p>
                 <ul class="social">
                   <li class="social-item">
-                    <a href=""
-                      ><img src="./img/instagram.svg" alt="Instagram"
-                    /></a>
+                    <a href="">
+                      <svg class="icon-social">
+                        <use href="./img/sprite.svg#instagram"></use></svg
+                    ></a>
                   </li>
                   <li class="social-item">
                     <a href=""
-                      ><img src="./img/Twitter.svg" alt=" Twitter" />
+                      ><svg class="icon-social">
+                        <use href="./img/sprite.svg#Twitter"></use>
+                      </svg>
                     </a>
                   </li>
                   <li class="social-item">
                     <a href=""
-                      ><img src="./img/Facebook.svg" alt="Facebook"
-                    /></a>
+                      ><svg class="icon-social">
+                        <use href="./img/sprite.svg#Facebook"></use></svg
+                    ></a>
                   </li>
                   <li class="social-item">
                     <a href=""
-                      ><img src="./img/linkedin.svg" alt=" LinkedIN"
-                    /></a>
+                      ><svg class="icon-social">
+                        <use href="./img/sprite.svg#linkedin"></use></svg
+                    ></a>
                   </li>
                 </ul>
               </div>
             </li>
+
             <li class="comand-item">
               <div class="comand-img">
                 <img src="./img/team-2.jpg" alt="Human" />
@@ -194,24 +251,29 @@
                 <p class="text-par">Frontend Developer</p>
                 <ul class="social">
                   <li class="social-item">
-                    <a href=""
-                      ><img src="./img/instagram.svg" alt="Instagram"
-                    /></a>
+                    <a href="">
+                      <svg class="icon-social">
+                        <use href="./img/sprite.svg#instagram"></use></svg
+                    ></a>
                   </li>
                   <li class="social-item">
                     <a href=""
-                      ><img src="./img/Twitter.svg" alt=" Twitter" />
+                      ><svg class="icon-social">
+                        <use href="./img/sprite.svg#Twitter"></use>
+                      </svg>
                     </a>
                   </li>
                   <li class="social-item">
                     <a href=""
-                      ><img src="./img/Facebook.svg" alt="Facebook"
-                    /></a>
+                      ><svg class="icon-social">
+                        <use href="./img/sprite.svg#Facebook"></use></svg
+                    ></a>
                   </li>
                   <li class="social-item">
                     <a href=""
-                      ><img src="./img/linkedin.svg" alt=" LinkedIN"
-                    /></a>
+                      ><svg class="icon-social">
+                        <use href="./img/sprite.svg#linkedin"></use></svg
+                    ></a>
                   </li>
                 </ul>
               </div>
@@ -225,24 +287,29 @@
                 <p class="text-par">Marketing</p>
                 <ul class="social">
                   <li class="social-item">
-                    <a href=""
-                      ><img src="./img/instagram.svg" alt="Instagram"
-                    /></a>
+                    <a href="">
+                      <svg class="icon-social">
+                        <use href="./img/sprite.svg#instagram"></use></svg
+                    ></a>
                   </li>
                   <li class="social-item">
                     <a href=""
-                      ><img src="./img/Twitter.svg" alt=" Twitter" />
+                      ><svg class="icon-social">
+                        <use href="./img/sprite.svg#Twitter"></use>
+                      </svg>
                     </a>
                   </li>
                   <li class="social-item">
                     <a href=""
-                      ><img src="./img/Facebook.svg" alt="Facebook"
-                    /></a>
+                      ><svg class="icon-social">
+                        <use href="./img/sprite.svg#Facebook"></use></svg
+                    ></a>
                   </li>
                   <li class="social-item">
                     <a href=""
-                      ><img src="./img/linkedin.svg" alt=" LinkedIN"
-                    /></a>
+                      ><svg class="icon-social">
+                        <use href="./img/sprite.svg#linkedin"></use></svg
+                    ></a>
                   </li>
                 </ul>
               </div>
@@ -256,24 +323,29 @@
                 <p class="text-par">UI Designer</p>
                 <ul class="social">
                   <li class="social-item">
-                    <a href=""
-                      ><img src="./img/instagram.svg" alt="Instagram"
-                    /></a>
+                    <a href="">
+                      <svg class="icon-social">
+                        <use href="./img/sprite.svg#instagram"></use></svg
+                    ></a>
                   </li>
                   <li class="social-item">
                     <a href=""
-                      ><img src="./img/Twitter.svg" alt=" Twitter" />
+                      ><svg class="icon-social">
+                        <use href="./img/sprite.svg#Twitter"></use>
+                      </svg>
                     </a>
                   </li>
                   <li class="social-item">
                     <a href=""
-                      ><img src="./img/Facebook.svg" alt="Facebook"
-                    /></a>
+                      ><svg class="icon-social">
+                        <use href="./img/sprite.svg#Facebook"></use></svg
+                    ></a>
                   </li>
                   <li class="social-item">
                     <a href=""
-                      ><img src="./img/linkedin.svg" alt=" LinkedIN"
-                    /></a>
+                      ><svg class="icon-social">
+                        <use href="./img/sprite.svg#linkedin"></use></svg
+                    ></a>
                   </li>
                 </ul>
               </div>
